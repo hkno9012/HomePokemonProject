@@ -10,7 +10,7 @@ import poke.model.Pokemon;
 import poke.view.PokedexFrame;
 import poke.controller.PokedexController;
 
-class TestPokeController
+class TestPokedexController
 {
 	PokedexController tested;
 	@BeforeEach
