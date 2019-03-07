@@ -81,6 +81,7 @@ public class PokedexPanel extends JPanel
 		this.setBackground(Color.WHITE);
 		
 		this.add(numberField);
+		numberField.setEnabled(false);
 		this.add(nameField);
 		this.add(evolveField);
 		this.add(attackField);
