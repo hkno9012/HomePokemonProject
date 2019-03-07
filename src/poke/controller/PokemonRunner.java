@@ -1,6 +1,6 @@
 package poke.controller;
 
-public class PokeRunner
+public class PokemonRunner
 {
 	public static void main(String [] args)
 	{
