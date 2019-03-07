@@ -39,7 +39,7 @@ public class PokedexPanel extends JPanel
 		this.app = app;
 		
 		this.appLayout = new SpringLayout();
-		this.pokemonIcon = new ImageIcon(getClass().getResource("/poke/view/Images/pokeball.png"));
+		this.pokemonIcon = new ImageIcon(getClass().getResource("/poke/view/Images/pokeball3.jpeg"));
 		
 		numberField = new JTextField("0");
 		nameField = new JTextField("A Pokemon");
@@ -160,9 +160,9 @@ public class PokedexPanel extends JPanel
 	
 	private void changeImageDisplay(String name)
 	{
-		String path = "/pokemon/view/images/";
-		String defaultName = "pokeball";
-		String extension = ".png";
+		String path = "/poke/view/Images/";
+		String defaultName = "pokeball3";
+		String extension = ".jpeg";
 		try
 		{
 			pokemonIcon = new ImageIcon(getClass().getResource(path + name.toLowerCase() + extension));
